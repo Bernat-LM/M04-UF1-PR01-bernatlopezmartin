@@ -6,8 +6,13 @@ body {
   color: black;
 }
 
-/*Estilos cabecera*/
-
+/*Estilos header*/
+#header{
+  background-color: #ffc107;
+  color:#212121;
+  padding:20px;
+  margin:20px;
+}
 /*Estilo background imagen*/
 body {
   /*background-image: url("images/futuristicHandWorkingLaptopMin.jpg"); /* Ruta de la imagen de fondo */
@@ -19,7 +24,7 @@ body {
   padding: 0;
 }
 
-/*Estilos contenido*/
+/*Estilos nav - como ponerlos horizontal!!!???*/
 nav ul li {
   display: flex; /* Hace que los elementos estén en línea */
   justify-content: center; /* Centra los elementos horizontalmente */
@@ -28,3 +33,28 @@ nav ul li {
 }
 /*Formulario*/
 /*colores*/
+/*Estilos menu*/
+#menu{
+  background-color: #00796b;
+  color:#212121;
+  padding:20px;
+  margin:20px;
+}
+/*Estilo background*/
+body {
+  background-color: #bdbdbd;
+}
+/*Estilos secciones*/
+.section{
+  background-color: #b2dfdb;
+  color:#212121;
+  padding:20px;
+  margin:20px;
+}
+/*Estilos footer*/
+.footer{
+  background-color: #212121;
+  color:#ffffff;
+  padding:20px;
+  margin:20px;
+}
