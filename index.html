@@ -102,12 +102,28 @@
             praesentium ut? Deserunt!
           </p>
           <form>
-            <lavel>Genero</lavel><br /><br />
+            <lavel>Género</lavel>
+            <select>
+              <option value="femenino">Femenino</option>
+              <option value="masculino">Masculino</option>
+            </select><br /><br />
 
-            <lavel>Edad</lavel><br /><br />
+            <lavel for="list">Edad</lavel>
+            <input list="browser" name="list" required />
+            <datalist id="browser">
+              <option value="Menos de 18 años" />
+              <option value="18-24 años" />
+              <option value="25-34 años" />
+              <option value="35-44 años" />
+              <option value="45-54 años" />
+              <option value="55-64 años" />
+              <option value="65 años o más" />
+            </datalist><br /><br />
 
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required /><br /><br />
+            <input type="text" id="nombre" name="nombre" required />
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required /><br /><br />
 
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required /><br /><br />
