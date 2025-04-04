@@ -13,6 +13,9 @@ body {
   padding:20px;
   margin:20px;
 }
+img{
+  vertical-align: middle; /* Alinea la imagen verticalmente */;
+}
 /*Estilo background imagen*/
 body {
   /*background-image: url("images/futuristicHandWorkingLaptopMin.jpg"); /* Ruta de la imagen de fondo */
@@ -30,6 +33,8 @@ nav ul li {
   justify-content: center; /* Centra los elementos horizontalmente */
   text-decoration: none; /* Quitar subrayado */
   list-style-type: none; /* Quitar los puntos de la lista */
+  display:inline-block; /* Hace que los elementos estén en línea */
+  margin: 0 10px; /* Espacio entre los elementos */
 }
 /*Formulario*/
 /*colores*/
@@ -50,6 +55,13 @@ body {
   color:#212121;
   padding:20px;
   margin:20px;
+}
+div:hover{
+  background-color: #111313; /* Cambia el color de fondo al pasar el mouse */
+  color: #757575; /* Cambia el color del texto al pasar el mouse */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  transition: background-color 0.3s ease; /* Añade una transición suave */
+  border-radius: 5px; /* Añade bordes redondeados */
 }
 /*Estilos footer*/
 .footer{
