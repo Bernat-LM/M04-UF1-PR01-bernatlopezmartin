@@ -63,6 +63,11 @@ div:hover{
   transition: background-color 0.3s ease; /* Añade una transición suave */
   border-radius: 5px; /* Añade bordes redondeados */
 }
+
+/*Estilos formulario*/
+input:focus {
+  background-color: yellow;
+}
 /*Estilos footer*/
 .footer{
   background-color: #212121;
