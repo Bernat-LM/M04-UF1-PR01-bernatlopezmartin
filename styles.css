@@ -1,9 +1,16 @@
 /*Estilos generales*/
-
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  color: black;
+    color: black;
+}
+h1{
+font-size: 2.5vw; /* Tamaño de fuente relativo al ancho de la ventana */
+}
+h2{
+  font-size: 2vw; /* Tamaño de fuente relativo al ancho de la ventana */
+}
+p{
+    font-size: 1.5vw; /* Tamaño de fuente relativo al ancho de la ventana */
 }
 
 /*Estilos header*/
@@ -12,19 +19,10 @@ body {
   color:#212121;
   padding:20px;
   margin:20px;
+  font-size: 3vw; /* Tamaño de fuente relativo al ancho de la ventana */
 }
 img{
   vertical-align: middle; /* Alinea la imagen verticalmente */;
-}
-/*Estilo background imagen*/
-body {
-  /*background-image: url("images/futuristicHandWorkingLaptopMin.jpg"); /* Ruta de la imagen de fondo */
-  background-size: cover; /* Ajusta la imagen al tamaño completo del cuerpo */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  height: 100vh; /* Asegura que el cuerpo tenga la altura de la pantalla */
-  margin: 0;
-  padding: 0;
 }
 
 /*Estilos nav - como ponerlos horizontal!!!???*/
@@ -35,9 +33,9 @@ nav ul li {
   list-style-type: none; /* Quitar los puntos de la lista */
   display:inline-block; /* Hace que los elementos estén en línea */
   margin: 0 10px; /* Espacio entre los elementos */
+  font-size: 1.8vw; /* Tamaño de fuente relativo al ancho de la ventana */
 }
-/*Formulario*/
-/*colores*/
+
 /*Estilos menu*/
 #menu{
   background-color: #00796b;
@@ -45,10 +43,12 @@ nav ul li {
   padding:20px;
   margin:20px;
 }
+
 /*Estilo background*/
 body {
   background-color: #bdbdbd;
 }
+
 /*Estilos secciones*/
 .section{
   background-color: #b2dfdb;
@@ -66,8 +66,12 @@ div:hover{
 
 /*Estilos formulario*/
 input:focus {
-  background-color: yellow;
+  background-color: #ffc107;
 }
+form{
+  font-size: 1.5vw; /* Tamaño de fuente relativo al ancho de la ventana */
+}
+
 /*Estilos footer*/
 .footer{
   background-color: #212121;
