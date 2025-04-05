@@ -25,7 +25,7 @@ img{
   vertical-align: middle; /* Alinea la imagen verticalmente */;
 }
 
-/*Estilos nav - como ponerlos horizontal!!!???*/
+/*Estilos nav*/
 nav ul li {
   display: flex; /* Hace que los elementos estén en línea */
   justify-content: center; /* Centra los elementos horizontalmente */

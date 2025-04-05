@@ -1,29 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Digitalización</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css" >
   </head>
   <body>
     <div id="header">
       <header>
         <h1>
-          <img
-            src="images/human-touch-robot-hand-min.jpg"
-            alt="human touch robot hand"
-            width="100"
-            height="auto"
-          />
-
+          <img src="images/human-touch-robot-hand-min.jpg" alt="human touch robot hand" width="100" height="75">
           Digitalización en entornos productivos
         </h1>
       </header>
     </div>
     <div id="menu">
       <nav>
-        <ul type="none">
+        <ul>
           <li><a href="#intro">Introducción</a></li>
           <li><a href="#thd">Tecnologias habilitadoras digitales</a></li>
           <li><a href="#iaDigit">IA en la digitalización</a></li>
@@ -36,7 +30,7 @@
     <main>
       <div class="section">
         <section id="intro">
-          <h1>Introducción</h1>
+          <h2>Introducción</h2>
           <h2>¿Qué es la digitalización?</h2>
           <p>
             La digitalización es el proceso de convertir información en formato
@@ -57,7 +51,7 @@
       </div>
       <div class="section">
         <section id="thd">
-          <h1>Tecnologias habilitadoras digitales</h1>
+          <h2>Tecnologias habilitadoras digitales</h2>
           <h2>titul</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
@@ -69,7 +63,7 @@
       </div>
       <div class="section">
         <section id="iaDigit">
-          <h1>IA en la digitalización</h1>
+          <h2>IA en la digitalización</h2>
           <h2>titul</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
@@ -81,7 +75,7 @@
       </div>
       <div class="section">
         <section id="datosSeguridad">
-          <h1>Datos y seguridad</h1>
+          <h2>Datos y seguridad</h2>
           <h2>titul</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore
@@ -93,7 +87,7 @@
       </div>
       <div class="section">
         <section id="formulario">
-          <h1>Formulario - Encuesta</h1>
+          <h2>Formulario - Encuesta</h2>
           <h2>¿Cual es tu conocimiento de la digitalizacón?</h2>
           <p>
             Realizar esta encuesta sobre la opinión de esta página web dedicada
@@ -109,42 +103,41 @@
             progresiva y comprensible. Muchas gracias por tu colaboración.
           </p>
           <form>
-            <lavel>Género</lavel>
+            <label>Género</label>
             <select>
               <option value="femenino">Femenino</option>
               <option value="masculino">Masculino</option></select
-            ><br /><br />
+            ><br ><br >
 
-            <lavel for="list">Edad</lavel>
-            <input list="browser" name="list" required />
+            <label for="edad">Edad</label>
+            <input id="edad" list="browser" name="list" required >
             <datalist id="browser">
-              <option value="Menos de 18 años" />
-              <option value="18-24 años" />
-              <option value="25-34 años" />
-              <option value="35-44 años" />
-              <option value="45-54 años" />
-              <option value="55-64 años" />
-              <option value="65 años o más" /></datalist
-            ><br /><br />
+              <option value="Menos de 18 años"></option>
+              <option value="18-24 años"></option>
+              <option value="25-34 años"></option>
+              <option value="35-44 años"></option>
+              <option value="45-54 años"></option>
+              <option value="55-64 años"></option>
+              <option value="65 años o más"></option>
+            </datalist>
+            <br ><br>
 
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required />
+            <input type="text" id="nombre" name="nombre" required >
             <label for="apellidos">Apellidos:</label>
-            <input
-              type="text"
-              id="apellidos"
-              name="apellidos"
-              required
-            /><br /><br />
+            <input type="text" id="apellidos" name="apellidos" required>
+            <br ><br >
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required /><br /><br />
+            <input type="email" id="email" name="email" required >
+            <br ><br >
 
-            <label for="mensaje">Mensaje:</label><br />
-            <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea
-            ><br /><br />
+            <label for="mensaje">Mensaje:</label>
+            <br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50"> </textarea
+            ><br ><br >
 
-            <input type="submit" value="Enviar" />
+            <input type="submit" value="Enviar">
           </form>
         </section>
       </div>
