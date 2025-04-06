@@ -8,3 +8,13 @@ form.addEventListener('submit', function (event) {
 /*Muestra un mensaje de confirmación*/
   alert('Formulario enviado correctamente');
 });
+
+// Selecciona el elemento <header>
+const header = document.querySelector('#header');
+
+// Agrega un evento de clic al <header>
+header.addEventListener('click', () => {
+  // Cambia el color de fondo del <header>
+  header.style.backgroundColor = '#212121';
+  header.style.color = '#ffc107'; 
+});
